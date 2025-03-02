@@ -5,6 +5,6 @@ test("numbers", () => {
   expect(value).toBeLessThan(5);
   expect(value).toBeLessThanOrEqual(4.5);
 
-  expect(value).toBe(4);
-  expect(value).toEqual(4);
+  expect(value).toBe(4); //lebih cocok menggunakan toBe()
+  expect(value).toEqual(4); //toEqual() lebih cocok ke objectss
 });
