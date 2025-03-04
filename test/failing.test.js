@@ -9,3 +9,5 @@ it("sayHello success", () => {
 it.failing("sayHello fail", () => {
   sayHello();
 });
+
+// opsi lainnya bisa pakai toThrow() cek exceptions.test.js
